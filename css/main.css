@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('/Gilroy-Regular.ttf');
+}
+.btn{
+    border: 1px solid orangered;
+    color: white;
+    background-color: orange;
+    border-radius: 24px;
+}
+.nav-gap{
+    padding: 10px 0;
+}
+.navbar {
+    border-radius: 0!important;
+    box-shadow: 0px 2px #8888881a;
+    min-height: 55px;
+    
+}
+.navbar-default{
+    background-color: white;
+}
+.carousel-indicators {
+    text-align: right;
+    right: 5%;
+ width: 0;
+    left: unset;
+    top:50%
+}
+.carousel-indicators > li{
+    display:block;
+}
+section{
+    margin: 30px 0;
+}
+.banner{
+margin-top: 100px!important;
+}
+.orange{
+    color:#8b091c;
+    font-family: system-ui;
+    font-size: 25px;
+}
+.orange1{
+    color: #700a09;
+    font-family: system-ui;
+    font-size: 25px;
+}
+.blue{
+    color:orange;
+    font-size: 15px;  
+
+}
+.blue1{
+    color:orange;
+    font-size: 20px;  
+
+}
+.imagestep{
+    margin-bottom: 10px;
+}
+.collapsible {
+    background-color:white ;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .collapsible.active {
+    font-weight: bolder;
+    background-color: #710a0a;
+    color: white;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #710a0a;
+    color: white;
+    border-radius: 0  0 12px  12px;
+
+  }
+ .pink{
+    background-color:;
+    color: white;
+ }
+ .pink a{
+    
+    color: white;
+ }
+ .black{
+    color: black;
+ }
+ .py-3{
+     padding: 10px;
+    background-color:#6d0a09;  
+ }
+ .pt-4{
+     background-image: url(../img/footer\ bg.png);
+ }
+ li > a {
+    color: white;
+    font-size:17px ;
+    padding: 0 5px;
+    text-decoration: none;
+ }
+ a:hover{
+     text-decoration: none;
+ }
+ .font{
+     font-size: 20px;
+     padding: 0 7px;
+ }
+
+ 
+ .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    font-size: 43px;
+}
+
+
+  /* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.giff{
+    border-radius: 40px;
+    padding: 0 10px;  
+}
+
+.btn-warning{
+    color: #8b091c!important;
+    border: 1px solid orange;
+    border-radius: 12px;
+    font-weight: bolder;
+    background-color: white!important;
+}
+.slide >img{
+    border-radius: 24px;
+    border: 1px;
+}
